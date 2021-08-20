@@ -1,0 +1,14 @@
+1. How does the internet work?
+The way the internet works is really complicated. 
+Internet is really a super big network where computers can communicate.
+Each computer has an IP address that is used as an id to communicate with other computers in the network.
+
+2. What happens when you click on a link?
+When you click a link, the machine will recognize/read the protocol of the link first (http/https).
+Then, it will read the hostname (google.com) which will be translated to an IP address of the site. 
+Next, it will read the port and the resource.
+Next, it will send a request to the server to find the site's IP address. If the site is available in the server, 
+it will then give a data response that will be visible as a website for the user.
+The GET request goes through several different process before the user get the response.
+If the user had visited the requested website before from the browser, the machine will check the cache is the site's info is in storage, and just pull the info from there. If not, it will contonue to search 
+If not, it will search it in the local router or straight in the server.
